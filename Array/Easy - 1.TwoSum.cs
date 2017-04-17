@@ -8,7 +8,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
-```
+
 public class Solution 
 {
 	//遍历数组  复杂度O(n^2)
@@ -34,9 +34,9 @@ public class Solution
         return new int[] {i, j};
     }
 }
-```
 
-```
+
+
 public class Solution 
 {
 	//遍历，使用字典缓存，判断差值是否在字典中
@@ -63,6 +63,6 @@ public class Solution
         return output;
     }
 }
-```
+
 
 
